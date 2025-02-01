@@ -1,0 +1,65 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Headings */
+  h2, h3 {
+    text-align: center;
+  }
+  
+  /* Form Labels and Inputs */
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  form input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  /* Button */
+  button {
+    display: block;
+    width: 100%;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Notification List */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #e9ecef;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  

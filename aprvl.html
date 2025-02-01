@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Approval Panel</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Approval Workflow (Admin Panel)</h2>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Request ID</th>
+          <th>Activity Name</th>
+          <th>Submitted By</th>
+          <th>Current Status</th>
+          <th>Missing Documents</th>
+          <th>Comments</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="approvalTable">
+        <tr>
+          <td>001</td>
+          <td>Event Permission</td>
+          <td>John Doe</td>
+          <td>Pending</td>
+          <td>Budget Plan</td>
+          <td><input type="text" placeholder="Add comments"></td>
+          <td>
+            <button class="approve">Approve</button>
+            <button class="reject">Reject</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <h3>Request History</h3>
+    <ul id="historyList">
+      <li>Request 001 - Submitted by John Doe - Pending at Department Head</li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
