@@ -187,11 +187,11 @@ include 'connection.php';
                 <li>
                     <i class="fas fa-folder"></i> <strong>Application Form</strong>
                     <ul class="sub-menu">
-                        <li>📌 Club</li>
-                        <li>🎉 Event</li>
-                        <li>📚 Workshop</li>
-                        <li><a href="fest.php" class="navbar-link">🎭 Fest</a></li>
-                        <li>📝 Others</li>
+                        <li><a href="clubs.php" class="navbar-link">📌 Club</a</li>
+                        <li><a href="events.php" class="navbar-link">🎉 Event</a</li>
+                        <li><a href="workshops.php" class="navbar-link">📚 Workshop</a</li>
+                        <li><a href="fest.php" class="navbar-link">🎭 Fest</a></a</li>
+                        <li><a href="others.php" class="navbar-link">📝 Others</a</li>
                     </ul>
                 </li>
                 <li><i class="fas fa-check-circle"></i> <strong>My Approval</strong></li>
